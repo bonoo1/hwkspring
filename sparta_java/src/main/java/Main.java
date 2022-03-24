@@ -1,15 +1,15 @@
+import java.util.Arrays;
+
 public class Main {
-    public static void main (String[] args) {
-        int number = 5;
-        System.out.println(number);
-
-        String sparta = "Hello Sparta";
-        System.out.println(sparta);
-
-        final int finalNumber = 22;
-        System.out.println(finalNumber);
-
-
+    public static void numbering() {
+        int i = 0;
+        while ( i < 10 ) {
+            System.out.println(i);    // 정의 메소드
+            i++;
+        }
     }
 
+    public static void main (String [] args) {
+        numbering();// 호출 메소드
+    }
 }
